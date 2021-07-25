@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">App_part_5</string>
+    <string name="button_name">Change text</string>
+    <string name="original_text">Some text</string>
+    <string name="changed_text">New text</string>
+</resources>

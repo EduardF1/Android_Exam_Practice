@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF9800">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="#2196F3"
+                android:paddingStart="10dp"
+                android:paddingTop="50dp"
+                android:text="TextView" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="10dp"
+                android:background="#2196F3"
+                android:paddingStart="10dp"
+                android:paddingTop="50dp"
+                android:text="TextView" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="10dp"
+                android:background="#2196F3"
+                android:paddingStart="10dp"
+                android:paddingTop="50dp"
+                android:text="TextView" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="10dp"
+                android:background="#2196F3"
+                android:paddingStart="10dp"
+                android:paddingTop="50dp"
+                android:text="TextView" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="10dp"
+                android:background="#2196F3"
+                android:paddingStart="10dp"
+                android:paddingTop="50dp"
+                android:text="TextView" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="10dp"
+                android:background="#2196F3"
+                android:paddingStart="10dp"
+                android:paddingTop="50dp"
+                android:text="TextView" />
+        </LinearLayout>
+    </ScrollView>
+
+<!--
+    Q1. What is the difference between margin and padding ?
+    The difference is that while margin refers to the space between the edges (borders) of an
+    element and the edges (borders) of its adjacent elements, padding refers to the space between
+    the edges (borders) of the element and its contents.
+
+    Q2. What unit is used for specifying margin and padding ? How does this unit differ from
+    pixels ?
+    The unit used for specifying margin and padding is the dp (density-independent pixel), while
+    the plain pixel is screen-dependent (specific for each screen), the dp as a measurement unit
+    was made by the Android team at Google to solve the issue of maintaining element size(s),
+    positioning and margins/padding regardless of the screen size.
+
+    Q3. How can you make the LinearLayout scrollable, if too many TextViews are inside of it ?
+    (Hint: ScrollView & FrameLayout)
+    The ScrollView is a child of the FrameLayout class (which can hold 1 child View), however,
+    if the child is a ViewGroup - LinearLayout (vertical), multiple Views (TextViews) can be added
+    as Grandchildren of the ScrollView.
+
+-->

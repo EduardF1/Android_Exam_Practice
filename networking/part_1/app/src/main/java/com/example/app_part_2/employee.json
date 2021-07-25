@@ -1,0 +1,19 @@
+{
+  "address": {
+    "city": "Hanover",
+    "country": "Germany"
+  },
+  "age": 20,
+  "family": [
+    {
+      "age": 39,
+      "role": "Wife"
+    },
+    {
+      "age": 5,
+      "role": "Daughter"
+    }
+  ],
+  "first_name": "Karl",
+  "mail": "Karl@mail.com"
+}

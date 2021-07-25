@@ -1,0 +1,4 @@
+#Wed Jan 06 19:14:51 CET 2021
+base.0=C\:\\Users\\fisch\\Desktop\\Android_Exam_Practice\\intents_fragments\\part_7\\FragmentExample_start\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

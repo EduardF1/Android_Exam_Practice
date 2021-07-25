@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">App_part_6</string>
+    <string name="string_1">Shop</string>
+    <string name="string_2">Sockets</string>
+    <string name="string_3">Restaurant</string>
+    <string name="string_4">Washing machine</string>
+    <string name="string_5">Bedroom</string>
+    <string name="string_6">Osama Ar Faky</string>
+</resources>

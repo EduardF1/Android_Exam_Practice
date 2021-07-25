@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- array used by spinner -->
+    <string-array name="array_key_persons">
+        <item>Janosz</item>
+        <item>Martin</item>
+        <item>Csaba</item>
+        <item>Petrov</item>
+        <item>Jenci</item>
+        <item>Dragosz</item>
+        <item>Nikolaus</item>
+        <item>Attila</item>
+    </string-array>
+</resources>
